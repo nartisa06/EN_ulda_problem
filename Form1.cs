@@ -27,14 +27,14 @@ namespace EN_ulda_problem_23012024
         private void b_aprekinat_Click(object sender, EventArgs e)
         {
 
-            int ladites_platums = 0;
-            int ladites_garums = 0;
-            int ladites_augstums = 0;
-            int pvn = 21;
-            int darba_samaksa = 15;
+            double ladites_platums = 0;
+            double ladites_garums = 0;
+            double ladites_augstums = 0;
+            double pvn = 21;
+            double darba_samaksa = 15;
             string vards = " ";
             string velejums = " ";
-            int kokmateriala_cena = 0;
+            double kokmateriala_cena = 0;
           
 
             if (tb_ladites_platums.Text == "" || tb_ladites_platums.Text == " " || tb_ladites_platums.Text == null)
@@ -44,7 +44,7 @@ namespace EN_ulda_problem_23012024
             }
             else
             {
-                ladites_platums = System.Convert.ToInt32(tb_ladites_platums.Text);
+                ladites_platums = System.Convert.ToDouble(tb_ladites_platums.Text);
             }
             if (tb_ladites_garums.Text == "" || tb_ladites_garums.Text == " " || tb_ladites_garums.Text == null)
             {
@@ -53,7 +53,7 @@ namespace EN_ulda_problem_23012024
             }
             else
             {
-                ladites_garums = System.Convert.ToInt32(tb_ladites_garums.Text);
+                ladites_garums = System.Convert.ToDouble(tb_ladites_garums.Text);
             }
             if (tb_augstums.Text == "" || tb_augstums.Text == " " || tb_augstums.Text == null)
             {
@@ -62,7 +62,7 @@ namespace EN_ulda_problem_23012024
             }
             else
             {
-                ladites_platums = System.Convert.ToInt32(tb_augstums.Text);
+                ladites_platums = System.Convert.ToDouble(tb_augstums.Text);
             }
             if (tb_kokmaterials.Text == "" || tb_kokmaterials.Text == " " || tb_kokmaterials.Text == null)
 
@@ -72,7 +72,7 @@ namespace EN_ulda_problem_23012024
             }
             else
             {
-                kokmateriala_cena = System.Convert.ToInt32(tb_kokmaterials.Text);
+                kokmateriala_cena = System.Convert.ToDouble(tb_kokmaterials.Text);
             }
             if (tb_vards.Text == "" || tb_vards.Text == " " || tb_vards.Text == null)
             {
@@ -112,7 +112,7 @@ namespace EN_ulda_problem_23012024
 
                 SQLiteCommand sqlite_cmd;
                 sqlite_cmd = sqlite_conn.CreateCommand();
-                sqlite_cmd.CommandText = "INSERT INTO=Ulda_problem(Klienta_vards, velejums, ladites_garums, ladites_platums, ladites_augstums, kokmateriala_cena) VALUES('" + tb_vards.Text + "','" + tb_veltijums.Text + "','" + tb_ladites_garums.Text + "','" + tb_ladites_platums.Text + "', '" + tb_augstums.Text + "','" + tb_kokmaterials.Text + "');";
+                sqlite_cmd.CommandText = "INSERT INTO Ulda_izmaksas(Klienta_vards, Velejums, Ladites_garums, Ladites_platums, ladites_augstums, kokmateriala_cena) VALUES('" + tb_vards.Text + "','" + tb_veltijums.Text + "','" + tb_ladites_garums.Text + "','" + tb_ladites_platums.Text + "', '" + tb_augstums.Text + "','" + tb_kokmaterials.Text + "');";
                 sqlite_cmd.ExecuteNonQuery();
             
            
@@ -142,7 +142,7 @@ namespace EN_ulda_problem_23012024
 
                 SQLiteCommand sqlite_cmd;
                 sqlite_cmd = sqlite_conn.CreateCommand();
-                sqlite_cmd.CommandText = "DELETE FROM ulda_problem WHERE id=" + tb_dzest_id.Text + ";";
+                sqlite_cmd.CommandText = "DELETE FROM ulda_izmaksas WHERE id=" + tb_dzest_id.Text + ";";
                 sqlite_cmd.ExecuteNonQuery();
                 tb_dzest_id.Clear();
             }
@@ -155,7 +155,7 @@ namespace EN_ulda_problem_23012024
 
             SQLiteCommand sqlite_cmd;
             sqlite_cmd = sqlite_conn.CreateCommand();
-            sqlite_cmd.CommandText = "SELECT * FROM Ulda_problem";
+            sqlite_cmd.CommandText = "SELECT * FROM Ulda_izmaksas";
 
             DataTable sTable;
             SQLiteDataAdapter sqlda = new SQLiteDataAdapter(sqlite_cmd);
@@ -183,5 +183,10 @@ namespace EN_ulda_problem_23012024
 
             
             }
+
+        private void tb_rekina_izveide_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

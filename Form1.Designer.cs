@@ -31,11 +31,9 @@
             this.tb_vards = new System.Windows.Forms.TextBox();
             this.tb_veltijums = new System.Windows.Forms.TextBox();
             this.tb_ladites_garums = new System.Windows.Forms.TextBox();
-            this.tb_rekina_izveide = new System.Windows.Forms.TextBox();
             this.tb_rekins = new System.Windows.Forms.TextBox();
             this.tb_ladites_platums = new System.Windows.Forms.TextBox();
             this.b_aprekinat = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -77,13 +75,6 @@
             this.tb_ladites_garums.Size = new System.Drawing.Size(100, 20);
             this.tb_ladites_garums.TabIndex = 2;
             // 
-            // tb_rekina_izveide
-            // 
-            this.tb_rekina_izveide.Location = new System.Drawing.Point(120, 55);
-            this.tb_rekina_izveide.Name = "tb_rekina_izveide";
-            this.tb_rekina_izveide.Size = new System.Drawing.Size(100, 20);
-            this.tb_rekina_izveide.TabIndex = 3;
-            // 
             // tb_rekins
             // 
             this.tb_rekins.Location = new System.Drawing.Point(136, 296);
@@ -107,15 +98,6 @@
             this.b_aprekinat.Text = "aprēķināt izmaksas";
             this.b_aprekinat.UseVisualStyleBackColor = true;
             this.b_aprekinat.Click += new System.EventHandler(this.b_aprekinat_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 58);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(101, 13);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "rēķina izveides laiks";
             // 
             // label2
             // 
@@ -288,11 +270,9 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.b_aprekinat);
             this.Controls.Add(this.tb_ladites_platums);
             this.Controls.Add(this.tb_rekins);
-            this.Controls.Add(this.tb_rekina_izveide);
             this.Controls.Add(this.tb_ladites_garums);
             this.Controls.Add(this.tb_veltijums);
             this.Controls.Add(this.tb_vards);
@@ -309,11 +289,9 @@
         private System.Windows.Forms.TextBox tb_vards;
         private System.Windows.Forms.TextBox tb_veltijums;
         private System.Windows.Forms.TextBox tb_ladites_garums;
-        private System.Windows.Forms.TextBox tb_rekina_izveide;
         private System.Windows.Forms.TextBox tb_rekins;
         private System.Windows.Forms.TextBox tb_ladites_platums;
         private System.Windows.Forms.Button b_aprekinat;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;

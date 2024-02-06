@@ -1,0 +1,6 @@
+Klienta vārds Enija
+vēlējums Dziiveir smiekliga
+Lādītes garums 3
+Lādītes platums 2
+kopējā summa 4
+kokmateriāla cena 1

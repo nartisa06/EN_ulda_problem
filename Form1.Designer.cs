@@ -56,6 +56,8 @@
             // 
             // tb_vards
             // 
+            this.tb_vards.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.tb_vards.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tb_vards.Location = new System.Drawing.Point(98, 103);
             this.tb_vards.Name = "tb_vards";
             this.tb_vards.Size = new System.Drawing.Size(100, 20);
@@ -63,6 +65,8 @@
             // 
             // tb_veltijums
             // 
+            this.tb_veltijums.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.tb_veltijums.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tb_veltijums.Location = new System.Drawing.Point(98, 126);
             this.tb_veltijums.Name = "tb_veltijums";
             this.tb_veltijums.Size = new System.Drawing.Size(100, 20);
@@ -70,6 +74,8 @@
             // 
             // tb_ladites_garums
             // 
+            this.tb_ladites_garums.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.tb_ladites_garums.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tb_ladites_garums.Location = new System.Drawing.Point(98, 152);
             this.tb_ladites_garums.Name = "tb_ladites_garums";
             this.tb_ladites_garums.Size = new System.Drawing.Size(100, 20);
@@ -77,6 +83,8 @@
             // 
             // tb_rekins
             // 
+            this.tb_rekins.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.tb_rekins.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tb_rekins.Location = new System.Drawing.Point(136, 296);
             this.tb_rekins.Name = "tb_rekins";
             this.tb_rekins.Size = new System.Drawing.Size(100, 20);
@@ -84,6 +92,8 @@
             // 
             // tb_ladites_platums
             // 
+            this.tb_ladites_platums.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.tb_ladites_platums.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tb_ladites_platums.Location = new System.Drawing.Point(98, 178);
             this.tb_ladites_platums.Name = "tb_ladites_platums";
             this.tb_ladites_platums.Size = new System.Drawing.Size(100, 20);
@@ -91,17 +101,21 @@
             // 
             // b_aprekinat
             // 
+            this.b_aprekinat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.b_aprekinat.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.b_aprekinat.Location = new System.Drawing.Point(136, 318);
             this.b_aprekinat.Name = "b_aprekinat";
             this.b_aprekinat.Size = new System.Drawing.Size(114, 23);
             this.b_aprekinat.TabIndex = 6;
             this.b_aprekinat.Text = "aprēķināt izmaksas";
-            this.b_aprekinat.UseVisualStyleBackColor = true;
+            this.b_aprekinat.UseVisualStyleBackColor = false;
             this.b_aprekinat.Click += new System.EventHandler(this.b_aprekinat_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.Location = new System.Drawing.Point(14, 103);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(68, 13);
@@ -111,6 +125,8 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label3.Location = new System.Drawing.Point(32, 129);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(48, 13);
@@ -120,6 +136,8 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label4.Location = new System.Drawing.Point(14, 155);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(79, 13);
@@ -130,6 +148,8 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label5.Location = new System.Drawing.Point(11, 181);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(81, 13);
@@ -139,6 +159,8 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label6.Location = new System.Drawing.Point(55, 299);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(75, 13);
@@ -148,6 +170,8 @@
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label7.Location = new System.Drawing.Point(13, 237);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(94, 13);
@@ -156,6 +180,8 @@
             // 
             // tb_kokmaterials
             // 
+            this.tb_kokmaterials.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.tb_kokmaterials.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tb_kokmaterials.Location = new System.Drawing.Point(136, 237);
             this.tb_kokmaterials.Name = "tb_kokmaterials";
             this.tb_kokmaterials.Size = new System.Drawing.Size(100, 20);
@@ -164,6 +190,8 @@
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label8.Location = new System.Drawing.Point(14, 208);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(86, 13);
@@ -172,6 +200,8 @@
             // 
             // tb_augstums
             // 
+            this.tb_augstums.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.tb_augstums.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tb_augstums.Location = new System.Drawing.Point(107, 208);
             this.tb_augstums.Name = "tb_augstums";
             this.tb_augstums.Size = new System.Drawing.Size(100, 20);
@@ -179,16 +209,20 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.Location = new System.Drawing.Point(136, 348);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(158, 23);
             this.button1.TabIndex = 17;
             this.button1.Text = "veidot rēķinu";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // rtb_rekins
             // 
+            this.rtb_rekins.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.rtb_rekins.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.rtb_rekins.Location = new System.Drawing.Point(297, 58);
             this.rtb_rekins.Name = "rtb_rekins";
             this.rtb_rekins.Size = new System.Drawing.Size(145, 156);
@@ -198,6 +232,8 @@
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.label9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label9.Location = new System.Drawing.Point(242, 299);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(24, 13);
@@ -207,6 +243,8 @@
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.label10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label10.Location = new System.Drawing.Point(486, 303);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(46, 13);
@@ -215,16 +253,20 @@
             // 
             // b_dzest
             // 
+            this.b_dzest.BackColor = System.Drawing.Color.Red;
+            this.b_dzest.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.b_dzest.Location = new System.Drawing.Point(644, 299);
             this.b_dzest.Name = "b_dzest";
             this.b_dzest.Size = new System.Drawing.Size(75, 23);
             this.b_dzest.TabIndex = 22;
             this.b_dzest.Text = "dzest";
-            this.b_dzest.UseVisualStyleBackColor = true;
+            this.b_dzest.UseVisualStyleBackColor = false;
             this.b_dzest.Click += new System.EventHandler(this.b_dzest_Click);
             // 
             // tb_dzest_id
             // 
+            this.tb_dzest_id.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.tb_dzest_id.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tb_dzest_id.Location = new System.Drawing.Point(538, 300);
             this.tb_dzest_id.Name = "tb_dzest_id";
             this.tb_dzest_id.Size = new System.Drawing.Size(100, 20);
@@ -232,16 +274,19 @@
             // 
             // b_apskatit
             // 
+            this.b_apskatit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.b_apskatit.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.b_apskatit.Location = new System.Drawing.Point(489, 233);
             this.b_apskatit.Name = "b_apskatit";
             this.b_apskatit.Size = new System.Drawing.Size(166, 23);
             this.b_apskatit.TabIndex = 24;
             this.b_apskatit.Text = "apskatīt datus";
-            this.b_apskatit.UseVisualStyleBackColor = true;
+            this.b_apskatit.UseVisualStyleBackColor = false;
             this.b_apskatit.Click += new System.EventHandler(this.b_apskatit_Click);
             // 
             // dgv_apskatit
             // 
+            this.dgv_apskatit.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.dgv_apskatit.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_apskatit.Location = new System.Drawing.Point(489, 64);
             this.dgv_apskatit.Name = "dgv_apskatit";
@@ -252,6 +297,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Aquamarine;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.dgv_apskatit);
             this.Controls.Add(this.b_apskatit);
@@ -276,8 +322,10 @@
             this.Controls.Add(this.tb_ladites_garums);
             this.Controls.Add(this.tb_veltijums);
             this.Controls.Add(this.tb_vards);
+            this.ForeColor = System.Drawing.SystemColors.Highlight;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_apskatit)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

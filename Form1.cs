@@ -188,5 +188,10 @@ namespace EN_ulda_problem_23012024
         {
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

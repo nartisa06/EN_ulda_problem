@@ -30,8 +30,8 @@ namespace EN_ulda_problem_23012024
             double ladites_platums = 0;
             double ladites_garums = 0;
             double ladites_augstums = 0;
-            double pvn = 21;
-            double darba_samaksa = 15;
+            int pvn = 21;
+            int darba_samaksa = 15;
             string vards = " ";
             string velejums = " ";
             double kokmateriala_cena = 0;
@@ -62,7 +62,7 @@ namespace EN_ulda_problem_23012024
             }
             else
             {
-                ladites_platums = System.Convert.ToDouble(tb_augstums.Text);
+                ladites_augstums= System.Convert.ToDouble(tb_augstums.Text);
             }
             if (tb_kokmaterials.Text == "" || tb_kokmaterials.Text == " " || tb_kokmaterials.Text == null)
 
@@ -96,9 +96,10 @@ namespace EN_ulda_problem_23012024
             int gar = velejums.Length;
             double vel_garums = gar * 1.2;
 
-            double produkta_cena = (vel_garums) + (ladites_platums/100 * ladites_garums/100 * ladites_augstums/100)/ 3 * kokmateriala_cena;
-            double PVN_summa = (produkta_cena = darba_samaksa) * pvn / 100;
-            double rekina_summa = (produkta_cena = darba_samaksa) + PVN_summa;
+            double produkta_cena = ((vel_garums) + (((ladites_platums / 100) * (ladites_garums /100) * (ladites_augstums / 100))/ 3) * kokmateriala_cena);
+            double p_cena = ((vel_garums) + (((ladites_platums / 100) * (ladites_garums / 100) * (ladites_augstums / 100)) / 3) * kokmateriala_cena);
+            double PVN_summa = (produkta_cena + darba_samaksa) * pvn / 100;
+            double rekina_summa = (produkta_cena + darba_samaksa) + PVN_summa;
 
             rtb_rekins.Text = $"Produkta cena: {produkta_cena:C}\n" +
                                    $"PVN summa: {PVN_summa:C}\n" +

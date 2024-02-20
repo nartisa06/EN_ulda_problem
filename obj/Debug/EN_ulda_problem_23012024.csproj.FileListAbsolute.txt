@@ -17,3 +17,6 @@ Z:\programmēšana 11.g\EN_ulda_problem_23012024\EN_ulda_problem_23012024\bin\De
 Z:\programmēšana 11.g\EN_ulda_problem_23012024\EN_ulda_problem_23012024\bin\Debug\EntityFramework.SqlServer.xml
 Z:\programmēšana 11.g\EN_ulda_problem_23012024\EN_ulda_problem_23012024\bin\Debug\System.Data.SQLite.xml
 Z:\programmēšana 11.g\EN_ulda_problem_23012024\EN_ulda_problem_23012024\obj\Debug\EN_ulda_problem_23012024.csproj.CopyComplete
+Z:\programmēšana 11.g\EN_ulda_problem_23012024\EN_ulda_problem_23012024\bin\Debug\MetroFramework.Design.dll
+Z:\programmēšana 11.g\EN_ulda_problem_23012024\EN_ulda_problem_23012024\bin\Debug\MetroFramework.dll
+Z:\programmēšana 11.g\EN_ulda_problem_23012024\EN_ulda_problem_23012024\bin\Debug\MetroFramework.Fonts.dll

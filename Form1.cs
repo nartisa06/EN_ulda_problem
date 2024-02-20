@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SQLite;
 using System.IO;
+using MetroFramework.Components;
 
 namespace EN_ulda_problem_23012024
 {
@@ -64,6 +65,7 @@ namespace EN_ulda_problem_23012024
             {
                 ladites_augstums= System.Convert.ToDouble(tb_augstums.Text);
             }
+            /*
             if (tb_kokmaterials.Text == "" || tb_kokmaterials.Text == " " || tb_kokmaterials.Text == null)
 
             {
@@ -73,6 +75,17 @@ namespace EN_ulda_problem_23012024
             else
             {
                 kokmateriala_cena = System.Convert.ToDouble(tb_kokmaterials.Text);
+            }
+            */
+            if (nud_kokmateriala_Cena.Value == 0 || nud_kokmateriala_Cena.Text == null)
+
+            {
+
+                MessageBox.Show("Ievadiet ludzu kokmateriāla cenu");
+            }
+            else
+            {
+                kokmateriala_cena = System.Convert.ToDouble(nud_kokmateriala_Cena.Value);
             }
             if (tb_vards.Text == "" || tb_vards.Text == " " || tb_vards.Text == null)
             {

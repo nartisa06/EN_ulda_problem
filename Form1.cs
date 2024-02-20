@@ -65,18 +65,6 @@ namespace EN_ulda_problem_23012024
             {
                 ladites_augstums= System.Convert.ToDouble(tb_augstums.Text);
             }
-            /*
-            if (tb_kokmaterials.Text == "" || tb_kokmaterials.Text == " " || tb_kokmaterials.Text == null)
-
-            {
-
-                MessageBox.Show("Ievadiet ludzu kokmateriāla cenu");
-            }
-            else
-            {
-                kokmateriala_cena = System.Convert.ToDouble(tb_kokmaterials.Text);
-            }
-            */
             if (nud_kokmateriala_Cena.Value == 0 || nud_kokmateriala_Cena.Text == null)
 
             {
@@ -126,7 +114,7 @@ namespace EN_ulda_problem_23012024
 
                 SQLiteCommand sqlite_cmd;
                 sqlite_cmd = sqlite_conn.CreateCommand();
-                sqlite_cmd.CommandText = "INSERT INTO Ulda_izmaksas(Klienta_vards, Velejums, Ladites_garums, Ladites_platums, ladites_augstums, kokmateriala_cena) VALUES('" + tb_vards.Text + "','" + tb_veltijums.Text + "','" + tb_ladites_garums.Text + "','" + tb_ladites_platums.Text + "', '" + tb_augstums.Text + "','" + tb_kokmaterials.Text + "');";
+                sqlite_cmd.CommandText = "INSERT INTO Ulda_izmaksas(Klienta_vards, Velejums, Ladites_garums, Ladites_platums, ladites_augstums, kokmateriala_cena) VALUES('" + tb_vards.Text + "','" + tb_veltijums.Text + "','" + tb_ladites_garums.Text + "','" + tb_ladites_platums.Text + "', '" + tb_augstums.Text + "','" + nud_kokmateriala_Cena.Text + "');";
                 sqlite_cmd.ExecuteNonQuery();
             
            
@@ -189,7 +177,7 @@ namespace EN_ulda_problem_23012024
                     a.WriteLine(label4.Text + " " + tb_ladites_platums.Text);
                     a.WriteLine(label5.Text + " " + tb_ladites_garums.Text);
                     a.WriteLine(label6.Text + " " + tb_augstums.Text);
-                    a.WriteLine(label7.Text + " " + tb_kokmaterials.Text);
+                    a.WriteLine(label7.Text + " " + nud_kokmateriala_Cena.Value);
 
                     
 

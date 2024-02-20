@@ -40,7 +40,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.tb_kokmaterials = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.tb_augstums = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -186,20 +185,11 @@
             this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.label7.Font = new System.Drawing.Font("Leelawadee", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label7.Location = new System.Drawing.Point(20, 239);
+            this.label7.Location = new System.Drawing.Point(9, 239);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(104, 14);
             this.label7.TabIndex = 13;
             this.label7.Text = "kokmateriāla cena";
-            // 
-            // tb_kokmaterials
-            // 
-            this.tb_kokmaterials.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.tb_kokmaterials.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.tb_kokmaterials.Location = new System.Drawing.Point(130, 239);
-            this.tb_kokmaterials.Name = "tb_kokmaterials";
-            this.tb_kokmaterials.Size = new System.Drawing.Size(100, 20);
-            this.tb_kokmaterials.TabIndex = 14;
             // 
             // label8
             // 
@@ -337,7 +327,6 @@
             this.panel2.Controls.Add(this.b_aprekinat);
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.label7);
-            this.panel2.Controls.Add(this.tb_kokmaterials);
             this.panel2.Controls.Add(this.tb_rekins);
             this.panel2.Location = new System.Drawing.Point(27, 10);
             this.panel2.Name = "panel2";
@@ -371,15 +360,16 @@
             // 
             // nud_kokmateriala_Cena
             // 
+            this.nud_kokmateriala_Cena.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.nud_kokmateriala_Cena.DecimalPlaces = 2;
             this.nud_kokmateriala_Cena.Increment = new decimal(new int[] {
             1,
             0,
             0,
             65536});
-            this.nud_kokmateriala_Cena.Location = new System.Drawing.Point(39, 361);
+            this.nud_kokmateriala_Cena.Location = new System.Drawing.Point(128, 233);
             this.nud_kokmateriala_Cena.Name = "nud_kokmateriala_Cena";
-            this.nud_kokmateriala_Cena.Size = new System.Drawing.Size(120, 20);
+            this.nud_kokmateriala_Cena.Size = new System.Drawing.Size(102, 20);
             this.nud_kokmateriala_Cena.TabIndex = 17;
             // 
             // Form1
@@ -426,7 +416,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox tb_kokmaterials;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox tb_augstums;
         private System.Windows.Forms.Button button1;
